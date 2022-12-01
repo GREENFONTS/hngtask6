@@ -62,7 +62,7 @@ const Main = () => {
     dispatch(setUserIp(ip));
     dispatch(setDefaultCurrency(defaultCurrency));
 
-    dispatch(GetCurrencies());
+   dispatch(setLoading(false))
   }, []);
 
   return (
