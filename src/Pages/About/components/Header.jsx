@@ -65,7 +65,7 @@ const Header = () => {
           </Typography>
         </Box>
 
-        <Box width="100%" marginLeft="-25px" sx={{marginTop:{xs:"0px", sm:"-24px", md:"0px", xl:"0px"}}}>
+        <Box width="100%" marginLeft="-25px" sx={{marginTop:{xs:"0px", sm:"0px", md:"0px", xl:"0px"}}}>
           <img src={image} width="100%" alt="" />
         </Box>
       </Box>
